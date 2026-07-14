@@ -5,6 +5,7 @@
     <title>Jak znáte pohádky</title>
 </head>
 <body>
+<img src="obrazky/pohadky.png" class="dekorace levy-horni" alt="">
 <span style="font-size: 150%;font-weight: bold;">Jak znáte pohádky</span><div align="center">
 <form action="/kvizy/vyhodnotit/" method="post">
 <table class="kviz" border="0" frame="void" rules="rows">
@@ -172,6 +173,14 @@ body {
 
 .answer label:hover {
     background: #f0f0f0;
+}
+
+.dekorace {
+    position: fixed;
+    width: 180px;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
 }
 </style>
 <script>
